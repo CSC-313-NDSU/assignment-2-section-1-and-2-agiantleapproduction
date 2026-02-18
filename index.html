@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>GiantLeap - Personal Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- My custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">GiantLeap</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+    <main class="pt-5 mt-5">
+      <!-- Home section -->
+      <section id="home" class="py-5 bg-light text-center">
+        <div class="container">
+          <h1 class="display-4 mb-4">Hello, I'm Edow Jiru</h1>
+
+          <img
+            src="images/pro-image.jpg"
+            alt="Profile picture"
+            class="rounded-circle img-fluid mb-4 shadow-lg"
+            style="
+              width: 280px;
+              height: 280px;
+              object-fit: cover;
+              border: 6px solid white;
+            "
+          />
+
+          <p class="lead mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+
+          <address class="fs-5 text-muted">
+            Fargo, North Dakota<br />
+            Email: contact@giantleap.dev <br />
+            Open to collaborations and conversations.
+          </address>
+        </div>
+      </section>
+
+      <!-- About Me section -->
+      <section id="about" class="py-5">
+        <div class="container">
+          <h2 class="mb-4">About Me</h2>
+
+          <p class="mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+
+          <p class="mb-4">
+            My main interests revolve around web development, exploring new
+            technologies, and occasional outdoor activities. I enjoy building
+            responsive websites, learning frameworks, and occasionally tinkering
+            with creative side projects.
+          </p>
+
+          <h4 class="mb-3">Hobbies & Fun Activities</h4>
+          <ol class="list-group list-group-numbered mb-4">
+            <li class="list-group-item">Reading Physics or Philosophy books</li>
+            <li class="list-group-item">
+              Using my telescope to capture images of Galaxies and Nebulae
+            </li>
+            <li class="list-group-item">
+              Learning new programming languages and tools
+            </li>
+            <li class="list-group-item">
+              Watching sci-fi movies TV series, and Space/Astrophysics
+              documentaries
+            </li>
+            <li class="list-group-item">
+              Going for walks or meditating to ground myself
+            </li>
+          </ol>
+
+          <h4 class="mb-3">Favorite Movies / Books</h4>
+          <ul class="list-group list-group-flush mb-5">
+            <li class="list-group-item">
+              Interstellar (2014) – epic journey through space, time, and human
+              resilience
+            </li>
+            <li class="list-group-item">
+              Black Holes by Brian Cox – clear look into cosmology and black
+              holes
+            </li>
+            <li class="list-group-item">
+              The Brain That Changes Itself by Norman Doidge – eye-opening on
+              how the brain rewires itself
+            </li>
+            <li class="list-group-item">
+              Self-Inquiry by Ramana Maharshi – deep guide to self-exploration
+            </li>
+            <li class="list-group-item">
+              Star Trek series – classic sci-fi with big ideas about exploration
+              and humanity
+            </li>
+          </ul>
+
+          <h4 class="mb-3">Weekly Schedule</h4>
+          <div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered">
+              <thead class="table-dark">
+                <tr>
+                  <th>Day</th>
+                  <th>Morning (8am-12pm)</th>
+                  <th>Afternoon (12pm-5pm)</th>
+                  <th>Evening (5pm-10pm)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table-primary">
+                  <td>Monday</td>
+                  <td>CSC 313 Class</td>
+                  <td>Study / Coding</td>
+                  <td>Telescope session (if clear sky)</td>
+                </tr>
+                <tr class="table-success">
+                  <td>Tuesday</td>
+                  <td>Free / Meditation</td>
+                  <td>Web project work</td>
+                  <td>Watch sci-fi or read</td>
+                </tr>
+                <tr class="table-warning">
+                  <td>Wednesday</td>
+                  <td>CSC 313 Class</td>
+                  <td>Group work / Meetings</td>
+                  <td>Walk / Exercise</td>
+                </tr>
+                <tr class="table-info">
+                  <td>Thursday</td>
+                  <td>Free</td>
+                  <td>Learning new tool/language</td>
+                  <td>Star Trek episode or documentary</td>
+                </tr>
+                <tr class="table-secondary">
+                  <td>Friday</td>
+                  <td>Free</td>
+                  <td>Personal projects</td>
+                  <td>Relax / Read</td>
+                </tr>
+                <tr class="table-light">
+                  <td>Saturday</td>
+                  <td>Outdoor walk / Telescope</td>
+                  <td>Deep reading (physics/philosophy)</td>
+                  <td>Free / Social</td>
+                </tr>
+                <tr class="table-danger">
+                  <td>Sunday</td>
+                  <td>Rest / Meditation</td>
+                  <td>Review week / Plan</td>
+                  <td>Family time or movie</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio section -->
+      <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="mb-4 text-center">Portfolio / Projects</h2>
+          <p class="text-center mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <img
+                  src="images/image333.png"
+                  class="card-img-top"
+                  alt="Project One"
+                  style="height: 200px; object-fit: cover"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Project One</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <img
+                  src="images/image222.png"
+                  class="card-img-top"
+                  alt="Project Two"
+                  style="height: 200px; object-fit: cover"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Project Two</h5>
+                  <p class="card-text">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <img
+                  src="images/image111.jpg"
+                  class="card-img-top"
+                  alt="Project Three"
+                  style="height: 200px; object-fit: cover"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Project Three</h5>
+                  <p class="card-text">
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+                </div>
+                <div class="card-footer text-center">
+                  <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section id="contact" class="py-5">
+        <div class="container">
+          <h2 class="mb-4 text-center">Contact Me</h2>
+          <p class="text-center mb-5">
+            Feel free to reach out with questions or comments.
+          </p>
+
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+              <form class="needs-validation" novalidate>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Your name"
+                    required
+                  />
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="name@example.com"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Please enter a valid email address.
+                  </div>
+                </div>
+
+                <div class="mb-4">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="5"
+                    placeholder="Your message here..."
+                    required
+                  ></textarea>
+                  <div class="invalid-feedback">Please enter your message.</div>
+                </div>
+
+                <div class="text-center">
+                  <button type="submit" class="btn btn-success btn-lg">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Form validation trigger -->
+    <script>
+      (function () {
+        "use strict";
+
+        var forms = document.querySelectorAll(".needs-validation");
+
+        Array.prototype.slice.call(forms).forEach(function (form) {
+          form.addEventListener(
+            "submit",
+            function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+
+              form.classList.add("was-validated");
+            },
+            false,
+          );
+        });
+      })();
+    </script>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+      <p class="mb-0">© 2026 GiantLeap. Built with HTML, CSS, and Bootstrap.</p>
+    </footer>
+  </body>
+</html>
